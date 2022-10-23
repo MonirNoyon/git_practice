@@ -26,6 +26,10 @@ to go untracked stage		-->		git rm --cached filename
 to check change difference	-->		git diff
 to commit stagging to local   -->		git commit -m "messege"
 see commit history 		-->		git log
+see commit info in 1 line 	-->		git log -oneline
+
+
+
 
 -> Git uncommit:
 to undo commit & back stagging area   						-->		git reset -soft HEAD^
