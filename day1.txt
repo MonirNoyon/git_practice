@@ -1,0 +1,34 @@
+This is git practice day 1:
+
+Theory:
+
+Working directory         			stagging area						local repository				remote repository
+-----------------					-------------						----------------				-----------------
+where we create 		git add		if any files in						
+many files and folder	git add .		this area then 		git commit -m "messege"
+which is untracked	git add --all	git track those files	---------------------->
+				----------->	to go working directory
+							to stagging area are use
+							git add command
+
+
+
+
+Some git command here
+
+To initialize 			--> 		git init
+To create a file 			--> 		touch filename.extension
+open a file 			--> 		start filename
+see folder all file 		--> 		ls -a
+see git status 			--> 		git status 
+to restore file 			--> 		git restore filename
+to go untracked stage		-->		git rm --cached filename
+to check change difference	-->		git diff
+to commit stagging to local   -->		git commit -m "messege"
+see commit history 		-->		git log
+
+-> Git uncommit:
+to undo commit & back stagging area   						-->		git reset -soft HEAD^
+back working dir. and remove stagging area 					-->		git reset HEAD^
+remove everything in current commit and back to previous commit  		--> 		git reset -hard HEAD^ 
+remove no of commit 									-->		git reset -soft HEAD~2
