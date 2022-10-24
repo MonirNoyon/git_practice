@@ -46,3 +46,8 @@ remove no of commit 									-->		git reset -soft HEAD~2
 ----------------
 to go one commit to another commit 			-->		git checkout commit_id / git checkout HEAD~2 -> go back 2 commit before 
 to back last commit or head commit			-->		git checkout master
+
+
+-> Git ignore:
+--------------
+to ignore file and folder use .gitignore file	-->		.env /  for folder temp/ all text uses *.txt / except !monir.txt
