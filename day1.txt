@@ -24,15 +24,25 @@ see git status 			--> 		git status
 to restore file 			--> 		git restore filename
 to go untracked stage		-->		git rm --cached filename
 to check change difference	-->		git diff
+---------------------------------------------------------------------
+->Git Commit:
+-------------
 to commit stagging to local   -->		git commit -m "messege"
 see commit history 		-->		git log
 see commit info in 1 line 	-->		git log -oneline
-
+show commit details		-->		git show commit_id/ git show / git show HEAD / git show HEAD~2
 
 
 
 -> Git uncommit:
+----------------
 to undo commit & back stagging area   						-->		git reset -soft HEAD^
 back working dir. and remove stagging area 					-->		git reset HEAD^
 remove everything in current commit and back to previous commit  		--> 		git reset -hard HEAD^ 
 remove no of commit 									-->		git reset -soft HEAD~2
+
+
+-> Git checkout:
+----------------
+to go one commit to another commit 			-->		git checkout commit_id
+to back last commit or head commit			-->		git checkout master
