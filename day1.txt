@@ -44,5 +44,5 @@ remove no of commit 									-->		git reset -soft HEAD~2
 
 -> Git checkout:
 ----------------
-to go one commit to another commit 			-->		git checkout commit_id
+to go one commit to another commit 			-->		git checkout commit_id / git checkout HEAD~2 -> go back 2 commit before 
 to back last commit or head commit			-->		git checkout master
