@@ -64,6 +64,13 @@ To ge update github data 				-->		git pull
 
 
 
+-> Git Branching
+-----------------
+To check git all branch			-->		git branch
+To create new branch			-->		git branch branch_name
+To switch another branch		-->		git checkout branch_name
+To delete branch				-->		git branch -d branch_name
+To create and switch new branch	-->		git checkout -b "branch_name"
 
 
 
