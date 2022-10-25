@@ -51,3 +51,29 @@ to back last commit or head commit			-->		git checkout master
 -> Git ignore:
 --------------
 to ignore file and folder use .gitignore file	-->		.env /  for folder temp/ all text uses *.txt / except !monir.txt
+
+
+->Git add remote repo:
+----------------------
+To check remote repo connection 			--> 		git remote
+To connect local repo to remote repo 		--> 		git remote add origin repo_url
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
