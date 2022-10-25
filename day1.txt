@@ -57,10 +57,10 @@ to ignore file and folder use .gitignore file	-->		.env /  for folder temp/ all 
 ----------------------
 To check remote repo connection 			--> 		git remote
 To connect local repo to remote repo 		--> 		git remote add origin repo_url
-
-
-
-
+To see repo connection details			-->		git remote -v
+To clone remote repository 				-->		git clone repo_url
+To push local repo to remote repo			-->		git push
+To ge update github data 				-->		git pull
 
 
 
